@@ -1,0 +1,27 @@
+.modify-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modify-container h1{
+    margin: 15px 0 10px 0;
+}
+
+.form-catalogo-container {
+    width: 500px;
+    text-align: end;
+}
+
+.form-catalogo-container input{
+    margin-bottom: 10px;
+}
+
+.form-catalogo-container input[type='button']{
+    font-size: 20px;
+    margin: 5px 0 0 15px;
+}
+
+.form-catalogo-container input[type='text']{
+    font-size: 20px;
+}

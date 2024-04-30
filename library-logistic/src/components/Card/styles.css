@@ -1,0 +1,30 @@
+.catalog-card {
+    background-color: #e7f4ff;
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 0 0 15px 0;
+}
+
+.card-top h3 {
+    padding: 15px 0 5px 0;
+    font-size: 25px;
+}
+
+.card-bottom h4 {
+    padding: 10px 0 25px 0;
+    font-size: 20px;
+
+}
+
+.id-top {
+    background-color: #b5c2ccc2;
+    height: 40px;
+    border-radius: 15px 15px 0 0;
+}
+
+.id-top h5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

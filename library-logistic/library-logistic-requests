@@ -1,0 +1,18 @@
+http://localhost:8080/books/all (get)-> todos os livros
+http://localhost:8080/books/{codigo} (get)-> todos os livros por id
+http://localhost:8080/books/register (post)-> add livros 
+{
+    "nomeLivro": "C completo e total",
+    "nomeAutor": "Herbert Schildt",
+    "nomeEditora": "Pearson Universidades"
+}
+
+http://localhost:8080/books/edit (put)-> editar livro
+{
+    "codigo": 1,
+    "nomeLivro": "C: como programar",
+    "nomeAutor": "Paul Deitel",
+    "nomeEditora": "Pearson Universidades"
+}
+
+http://localhost:8080/books/delete/{codigo} (delete)-> deletar livro id
